@@ -1,0 +1,23 @@
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding:1px;
+}
+
+#container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width:600px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+}
